@@ -5,29 +5,21 @@
       <stop offset="100%" stop-color="#161B22" />
     </linearGradient>
   </defs>
-
-  <!-- Terminal Frame -->
   <rect width="900" height="270" rx="14" fill="url(#termBg)" stroke="#30363D" stroke-width="1.5"/>
-
-  <!-- Top Bar -->
   <rect width="900" height="38" rx="14" fill="#1C2128"/>
   <rect y="24" width="900" height="14" fill="#1C2128"/>
   <circle cx="22" cy="19" r="6" fill="#FF5F56"/>
   <circle cx="40" cy="19" r="6" fill="#FFBD2E"/>
   <circle cx="58" cy="19" r="6" fill="#27C93F"/>
-  <text x="450" y="24" fill="#8B949E" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🖥️ Docker Ubuntu Desktop (SSHX) • Interactive Preview</text>
-
-  <!-- Status Pill -->
+  <text x="450" y="24" fill="#8B949E" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🖥️ Docker Ubuntu Desktop (SSHX) • Live Preview</text>
   <rect x="750" y="10" width="130" height="18" rx="9" fill="#21262D" stroke="#E95420" stroke-width="1"/>
   <text x="815" y="22" fill="#E95420" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" text-anchor="middle">DESKTOP ENVIRONMENT</text>
-
-  <!-- Terminal Content Lines -->
   <g transform="translate(15, 10)">
     <text x="25" y="70" fill="#E95420" font-family="'Fira Code', monospace" font-size="13">$ docker run -it --rm --platform=linux/amd64 docker-ubuntu-desktop</text>
 <text x="25" y="96" fill="#C9D1D9" font-family="'Fira Code', monospace" font-size="13">[INIT] Initializing Ubuntu 22.04 container subsystems...</text>
-<text x="25" y="122" fill="#C9D1D9" font-family="'Fira Code', monospace" font-size="13">[DESKTOP] Starting XFCE4 session manager & dbus daemon</text>
+<text x="25" y="122" fill="#C9D1D9" font-family="'Fira Code', monospace" font-size="13">[DESKTOP] Starting XFCE4 session manager &amp; dbus daemon</text>
 <text x="25" y="148" fill="#C9D1D9" font-family="'Fira Code', monospace" font-size="13">[FIREFOX] Native browser runtime verified</text>
-<text x="25" y="174" fill="#C9D1D9" font-family="'Fira Code', monospace" font-size="13">[SSHX] Session share established: https://sshx.io/s/ubuntu-xfce#join</text>
+<text x="25" y="174" fill="#C9D1D9" font-family="'Fira Code', monospace" font-size="13">[SSHX] Session share established: https://sshx.io/s/terminal</text>
 <text x="25" y="200" fill="#3FB950" font-family="'Fira Code', monospace" font-size="13">[READY] Terminal and graphical session ready for collaboration.</text>
 
   </g>
