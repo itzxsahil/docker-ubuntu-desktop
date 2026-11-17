@@ -1,52 +1,61 @@
 <h1 align="center">🖥️ Docker Ubuntu Desktop (SSHX)</h1>
 
 <p align="center">
-  <a href="https://github.com/itz-spidy">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=E95420&center=true&vCenter=true&width=900&lines=Full+Ubuntu+Desktop+Environment+in+Docker;Instant+Terminal+Sharing+via+SSHX+Web;XFCE4+%2B+Mozilla+Firefox+%2B+Dev+Tools;Lightweight+%26+Cloud+Compatible" alt="Typing SVG" />
+  <a href="https://github.com/itzxsahil">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=E95420&center=true&vCenter=true&width=900&lines=Ubuntu+XFCE4+Desktop+in+Docker+Container;Collaborative+Terminal+Sharing+via+SSHX;Preinstalled+Firefox+%26+Development+Tools;Maintained+by+itzxsahil" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Ubuntu-22.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
-  <img src="https://img.shields.io/badge/XFCE-Desktop%20UI-blue?style=for-the-badge&logo=xfce&logoColor=white">
-  <img src="https://img.shields.io/badge/SSHX-Terminal%20Share-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Docker-Multi--Arch-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/Ubuntu-22.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"> <img src="https://img.shields.io/badge/XFCE-Desktop%20UI-blue?style=for-the-badge&logo=xfce&logoColor=white"> <img src="https://img.shields.io/badge/SSHX-Terminal%20Share-green?style=for-the-badge">
 </p>
 
 ---
 
-## 🎬 Desktop Demo & Video Walkthrough
+## 🎬 Video Tutorial & Interactive Walkthrough
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-  <br><br>
-  <img src="https://media.giphy.com/media/ule4vhcY1xEKQ/giphy.gif" width="700" alt="Desktop Walkthrough" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" />
-  <br><br>
-  <img src="https://img.shields.io/badge/%E2%96%B6%EF%B8%8F%20WATCH%20TUTORIAL-UBUNTU%20DESKTOP%20SSHX%20DEMO-E95420?style=for-the-badge&logo=youtube&logoColor=white" />
+  <a href="https://www.youtube.com/results?search_query=itzxsahil+docker+ubuntu+desktop">
+    <img src="assets/tutorial-showcase.svg" width="100%" alt="Video Tutorial Showcase" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+  </a>
+  <p><em>▶️ <strong>Interactive Project Tutorial</strong> — Click the player above to watch full setup guide &amp; demonstration!</em></p>
 </div>
 
 ---
 
 # 🚀 Overview
 
-Containerized **Ubuntu Desktop (XFCE4)** environment with instant terminal sharing powered by **SSHX**.
-
-### 🌟 Features
-- 💻 **XFCE4 Desktop & Firefox**: Clean graphical environment with native Firefox web browser.
-- 🌐 **Instant SSHX Sharing**: Launch and instantly obtain a collaborative web terminal URL.
-- ⚡ **Multi-arch Support**: Works on `linux/amd64` and cloud servers.
+A full Ubuntu XFCE4 graphical desktop environment packed into a Docker image featuring instant web-based terminal sharing via SSHX.
 
 ---
 
-# 📦 Usage
+## 🏗️ System Architecture & Data Flow
+
+<div align="center">
+  <img src="assets/architecture.svg" width="100%" alt="Architecture Diagram" style="border-radius: 12px;" />
+</div>
+
+<br>
+
+The Docker container initializes XFCE utilities and connects to the SSHX network, providing a collaborative terminal web URL to anyone with the link.
+
+---
+
+# ✨ Features
+
+✅ **XFCE4 Desktop & Firefox**: Lightweight GUI with complete web browsing capability.\n✅ **Zero-Config SSHX**: Generates a secure collaborative URL on startup.\n✅ **Multi-Arch**: Compatible with standard AMD64 and VPS systems.
+
+---
+
+# 📦 Installation & Quickstart
 
 ```bash
 docker run -it --rm --platform=linux/amd64 docker-ubuntu-desktop
 ```
-
-Once started, SSHX will output a unique sharing link in your console. Open it in any browser to access the session.
+Open the generated sharing link in your browser to enter the session.
 
 ---
 
-# 👤 Author
-Maintained by [@itz-spidy](https://github.com/itz-spidy).
+# 👤 Author & Support
+- Built with ❤️ by [@itzxsahil](https://github.com/itzxsahil)
+- Star ⭐ this repository if you find it helpful!
